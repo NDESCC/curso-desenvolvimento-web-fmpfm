@@ -8,20 +8,35 @@ body {
 }
 
 #menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
   width: 100%;
-  height: auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background-color: aliceblue;
 }
 
-a {
-  color: red;
+ul {
+  display: flex;
+  gap: 10px;
 }
 
-.li__item-1 {
-  color: blue;
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .header__img {
   width: 400px;
+}
+
+.container__header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
