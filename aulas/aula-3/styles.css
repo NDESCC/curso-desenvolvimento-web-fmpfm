@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffff;
+  font-family: "Poppins", sans-serif;
+}
+
+#menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: aliceblue;
+  padding-right: 164px;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header__img {
+  width: 400px;
+}
+
+.container__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+  padding-top: 112px;
+}
+
+.container__texto {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.meu-botao {
+  background-color: #4881ee;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  float: left;
+  text-transform: lowercase;
+  font-size: 1.25rem;
+}
+
+.meu-botao:hover {
+  background-color: darkblue;
+}
+
+.container__texto-front {
+  color: #4881ee;
+}
+
+.container__texto-1 {
+  font-size: 2rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.sobre-mim {
+  width: 100%;
+  background-color: #f2f6fb;
+  padding: 3rem 0;
+}
+
+.sobre-mim .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo-sessao {
+  font-size: 2.5rem;
+  line-height: 100%;
+}
+
+.descricao-sessao {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgba(30, 63, 126, 0.59);
+  margin-top: 8px;
+  line-height: 100%;
+}
+
+.sobre-mim .descricao {
+  font-size: 1.25rem;
+  color: rgba(30, 63, 126, 0.75);
+  margin-top: 40px;
+  max-width: 500px;
+  text-align: justify;
+}
+
+.sobre-mim .imagem {
+  height: 250px;
+}
+
+.sobre-mim .download-curriculo {
+  padding: 1rem 1.25rem;
+  display: block;
+  border-radius: 10px;
+  background-color: #4881EE;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  float: left;
+  margin-top: 24px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.skills .container-skills {
+  width: 100%;
+  max-width: 1100px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+}
+
+.skills .base-titulo {
+  text-align: center;
+}
+
+.skills .skill {
+  width: 49%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.skills .skill .titulo-skill {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.skills .skill .progresso-skill {
+  width: 100%;
+  height: 6px;
+  background-color: rgba(30, 63, 126, 0.2);
+  border-radius: 4px;
+  position: relative;
+  margin-top: 16px;
+}
+
+.skills .skill .progresso-skill .progresso {
+  position: absolute;
+  height: 100%;
+  background-color: #4881EE;
+  border-radius: 4px;
+}
+
